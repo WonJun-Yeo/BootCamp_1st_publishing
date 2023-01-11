@@ -1,0 +1,39 @@
+header {
+    padding: 0 20px;
+}
+
+.headerTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.title {
+    font-size: 24px;
+}
+
+.buttonGrop {
+    display: felx;
+}
+
+.buttonGroup button {
+    margin-right: 10px;
+}
+
+.buttonGroup button:last-child {
+    margin-right: 0;
+}
+
+.navBar {
+    padding: 0 100px;
+}
+
+.navBar ul {
+    display: flex;
+    justify-content: space-between;
+}
