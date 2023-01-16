@@ -1,0 +1,13 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.userProfileItem {
+    display: flex;
+}
+
+.qAndAContentBox {
+    display: flex;
+}
