@@ -1,0 +1,22 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.filter {
+    margin-bottom: 20px;
+}
+
+.noticeItems {
+    overflow: hidden;
+    padding: 20px;
+}
+
+.noticeItem {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 50%;
+}
+
