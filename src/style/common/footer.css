@@ -1,0 +1,23 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #EAE1D8;
+}
+
+footer .footerLogo {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+footer .footerItems {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px 20px;
+}
+
+footer .footerInfo {
+    text-align: right;
+}
+

@@ -2,6 +2,15 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.head .searchContainer select {
+    margin-right: 10px;
+}
+
+.head .searchContainer button {
+    margin-left: 5px;
 }
 
 .freeBoardTable {
@@ -11,6 +20,12 @@
 
 .freeBoardTable thead {
     text-align: center;
+    line-height: 2;
+    background-color: lightgray;
+}
+
+.freeBoardTable tbody tr {
+    line-height: 4;
 }
 
 .freeBoardLimit {

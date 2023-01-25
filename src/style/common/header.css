@@ -1,49 +1,44 @@
 header {
-  padding: 0 20px;
-  background-color: #fff;
-  border: 1px solid  #FCD742;
-  margin-bottom: 20px;
-;
+    padding: 20px !important;
+    background-color: #fff;
+    border-bottom: 1px solid #F0E4D7 !important;
 }
 
 .headerTop {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
-  width: 100px;
-  height: 100px;
+    width: 100px;
+    height: 100px;
 }
 
 .title {
-  font-size: 24px;
+    font-size: 24px;
 }
 
 .buttonGrop {
-  display: flex;
+    display: flex;
 }
 
-.buttonGrop button {
-  border: 1px solid lightyellow;
-  margin-right: 10px;
+.buttonGroup button {
+    margin-right: 10px;
+    border: 1px solid #F0E4D7;
+    background-color: lightyellow;
+    padding: 10px 20px;
 }
 
-.buttonGrop button {
-  margin-right: 0;
-}
-
-.buttonGrop button:last-child {
-  margin-right: 0;
+.buttonGroup button:last-child {
+    margin-right: 0;
 }
 
 .navBar {
-  padding: 0 100px;
+    padding: 0 100px;
 }
 
 .navBar ul {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
