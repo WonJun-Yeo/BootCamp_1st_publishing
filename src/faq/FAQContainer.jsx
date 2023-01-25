@@ -1,81 +1,85 @@
 import React from 'react'
 
-const FreeboardContainer = () => {
+const FAQContainer = () => {
   return (
     <>
       <div className='head'>
-        <h2>Free Board</h2>
+        <h2>FAQ</h2>
         <div className="searchContainer">
           <select name="" id="">
-            <option value="">Title + Writer</option>
             <option value="">Title</option>
-            <option value="">Writer</option>
           </select>
           <input></input>
           <button>Search</button>
         </div>
       </div>
       <div>
-        <table className='freeBoardTable'>
+        <table className='faqTable'>
           <thead>
             <td>No</td>
             <td>Title</td>
-            <td>Writer</td>
-            <td>Date</td>
           </thead>
           <tbody>
             <tr>
               <td>No</td>
               <td>Title</td>
-              <td>Writer</td>
-              <td>Date</td>
             </tr>
             <tr>
               <td>No</td>
               <td>Title</td>
-              <td>Writer</td>
-              <td>Date</td>
             </tr>
             <tr>
               <td>No</td>
               <td>Title</td>
-              <td>Writer</td>
-              <td>Date</td>
             </tr>
             <tr>
               <td>No</td>
               <td>Title</td>
-              <td>Writer</td>
-              <td>Date</td>
             </tr>
             <tr>
               <td>No</td>
               <td>Title</td>
-              <td>Writer</td>
-              <td>Date</td>
             </tr>
             <tr>
               <td>No</td>
               <td>Title</td>
-              <td>Writer</td>
-              <td>Date</td>
             </tr>
             <tr>
               <td>No</td>
               <td>Title</td>
-              <td>Writer</td>
-              <td>Date</td>
             </tr>
             <tr>
               <td>No</td>
               <td>Title</td>
-              <td>Writer</td>
-              <td>Date</td>
+            </tr>
+            <tr>
+              <td>No</td>
+              <td>Title</td>
+            </tr>
+            <tr>
+              <td>No</td>
+              <td>Title</td>
+            </tr>
+            <tr>
+              <td>No</td>
+              <td>Title</td>
+            </tr>
+            <tr>
+              <td>No</td>
+              <td>Title</td>
+            </tr>
+            <tr>
+              <td>No</td>
+              <td>Title</td>
+            </tr>
+            <tr>
+              <td>No</td>
+              <td>Title</td>
             </tr>
           </tbody>
         </table>
       </div>
-      <div className='freeBoardLimit'>
+      <div className='faqLimit'>
         <select name="" id="">
           <option value="">5</option>
           <option value="">15</option>
@@ -95,4 +99,4 @@ const FreeboardContainer = () => {
   )
 }
 
-export default FreeboardContainer
+export default FAQContainer

@@ -1,0 +1,42 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.head .searchContainer select {
+    margin-right: 10px;
+}
+
+.head .searchContainer button {
+    margin-left: 5px;
+}
+
+.faqTable {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.faqTable thead {
+    text-align: center;
+    line-height: 2;
+    background-color: lightgray;
+}
+
+.faqTable tbody tr {
+    line-height: 4;
+}
+
+.faqLimit {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 20px;
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+

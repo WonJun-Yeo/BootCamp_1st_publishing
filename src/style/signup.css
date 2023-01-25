@@ -1,0 +1,47 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.dataWraper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #F0E4D7;
+    border-bottom: 1px solid #F0E4D7;
+    margin-bottom: 40px;
+}
+
+.signupInfo {
+    padding: 20px 0;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.signupInfo li {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.signupInfo button {
+    margin-left: 5px;
+}
+
+.signupInfo li p {
+    width: 200px;
+}
+
+.signupBtGroup {
+    margin-bottom: 20px;
+}
+
+.signupBtGroup button {
+    margin-right: 10px;
+}
+
+.signupBtGroup button:last-child {
+    margin: 0;
+}

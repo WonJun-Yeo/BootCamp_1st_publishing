@@ -6,18 +6,20 @@ import './style/reset.css';
 import './style/freeBoard.css';
 import './style/qAndA.css';
 import './style/notice.css';
+import './style/faq.css';
+import './style/signup.css';
 
 import Header from './common/Header';
-import QAndA from './common/qna/QAndA';
 import Footer from './common/Footer';
 import Banner from './common/Banner';
+import Signup from './signup/Signup';
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Banner />
-      <QAndA />
+      <Signup />
       <Footer />
     </div>
   );
