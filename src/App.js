@@ -4,9 +4,11 @@ import './style/common/banner.css';
 import './style/common/footer.css';
 import './style/reset.css';
 import './style/freeBoard.css';
+import './style/notice.css';
 
 import Header from './common/Header';
-import FreeboardContainer from './freeboard/FreeboardView';
+import NoticeContainer from './notice/NoticeContainer';
+// import FreeboardContainer from './freeboard/FreeboardView';
 import Footer from './common/Footer';
 import Banner from './common/Banner';
 
@@ -15,7 +17,8 @@ function App() {
     <div className="App">
       <Header />
       <Banner />
-      <FreeboardContainer />
+      <NoticeContainer />
+      {/* <FreeboardContainer /> */}
       <Footer />
     </div>
   );
