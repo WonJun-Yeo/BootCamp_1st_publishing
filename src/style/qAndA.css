@@ -1,0 +1,47 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.qAndAContents {
+    display: flex;
+    padding: 20px;
+}
+
+.userInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #111;
+    margin-right: 20px;
+}
+
+.userInfo .userDetailInfo {
+    padding: 20px;
+}
+
+.userInfo .userDetailInfo li {
+    display: flex;
+    line-height: 2;
+}
+
+.userInfo .userDetailInfo li h4 {
+    width: 50%;
+}
+
+
+.qAndAData {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.qAndAData input {
+    margin-bottom: 5px;
+}
+
+.qAndAData textarea {
+    margin-bottom: 5px;
+}
